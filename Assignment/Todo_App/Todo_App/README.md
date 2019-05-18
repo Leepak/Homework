@@ -1,6 +1,6 @@
-####Todo_App
+# Todo-app
 A simple Todo App using the MVVM clean architecture component. 
-###Feature:
+# Feature
 Login
 Add Task
 Update Task
