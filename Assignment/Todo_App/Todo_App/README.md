@@ -1,10 +1,12 @@
 # Todo-app
 A simple Todo App using the MVVM clean architecture component. 
 # Feature
-Login
-Add Task
-Update Task
-Delete All Task
+- [Login]
+- [Add Task]
+- [Update Task]
+- [Delete All Task]
+
+
 
 ###Architecture
 Model-View-View Model is an architectural approach used to abstract the state and behavior of a view, which allows us to separate the development of the UI from the business logic
@@ -20,12 +22,14 @@ Because all the components interact, you will encounter references to these comp
 ##ViewModel: Provides data to the UI and acts as a communication center between the Repository and the UI. Hides the backend from the UI. ViewModel instances survive device configuration changes.
 ##LiveData: A data holder class that follows the observe pattern which means that it can be observed. Always holds/caches latest version of data. Notifies its observers when the data has changed. Generally, UI components observe relevant data. LiveData is lifecycle-aware, so it automatically manages stopping and resuming observation based on the state of its observing activity or fragment.
 
-##This app is implements:
-•	Room
-•	ViewModel
-•	LiveData
-•	Data Binding
-•	Dagger
+#### This app is implements:
+
+- [Room](https://codelabs.developers.google.com/codelab)
+- [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
+- [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
+- [Data Binding](https://developer.android.com/topic/libraries/data-binding/)
+
+- [Dagger](https://google.github.io/dagger/)
 ##Requirements
 •	Android Studio v3.1.3 or higher
 •	Compile Sdk Version: 27
