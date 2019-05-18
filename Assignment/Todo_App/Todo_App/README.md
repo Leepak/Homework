@@ -28,9 +28,12 @@ Because all the components interact, you will encounter references to these comp
 - [Data Binding](https://developer.android.com/topic/libraries/data-binding/)
 
 - [Dagger](https://google.github.io/dagger/)
-##Requirements
-•	Android Studio v3.1.3 or higher
-•	Compile Sdk Version: 27
+
+
+#### Requirements
+- [Android Studio v3.1.3 or higher](https://developer.android.com/studio/)
+- Compile Sdk Version: 27
+
 
 
 
